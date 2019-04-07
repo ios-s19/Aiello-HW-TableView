@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6998098122599A4B00EA366E /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6998098022599A4B00EA366E /* ItemsViewController.swift */; };
 		6998098322599CDC00EA366E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6998098222599CDC00EA366E /* Item.swift */; };
+		699809852259A10800EA366E /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699809842259A10800EA366E /* ItemStore.swift */; };
 		69AB0DE92259960E00CB5FDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AB0DE82259960E00CB5FDC /* AppDelegate.swift */; };
 		69AB0DEB2259960E00CB5FDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AB0DEA2259960E00CB5FDC /* ViewController.swift */; };
 		69AB0DEE2259960E00CB5FDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69AB0DEC2259960E00CB5FDC /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		6998098022599A4B00EA366E /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 		6998098222599CDC00EA366E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		699809842259A10800EA366E /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 		69AB0DE52259960E00CB5FDC /* Aiello-HW-TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aiello-HW-TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69AB0DE82259960E00CB5FDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69AB0DEA2259960E00CB5FDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				69AB0DF42259960F00CB5FDC /* Info.plist */,
 				6998098022599A4B00EA366E /* ItemsViewController.swift */,
 				6998098222599CDC00EA366E /* Item.swift */,
+				699809842259A10800EA366E /* ItemStore.swift */,
 			);
 			path = "Aiello-HW-TableView";
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				6998098322599CDC00EA366E /* Item.swift in Sources */,
 				69AB0DEB2259960E00CB5FDC /* ViewController.swift in Sources */,
 				6998098122599A4B00EA366E /* ItemsViewController.swift in Sources */,
+				699809852259A10800EA366E /* ItemStore.swift in Sources */,
 				69AB0DE92259960E00CB5FDC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
