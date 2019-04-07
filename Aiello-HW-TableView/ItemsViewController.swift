@@ -22,6 +22,22 @@ class ItemsViewController: UITableViewController {
         
     }
     
-   
+    override func tableView(_ tableView: UITableView,
+    cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    // Create an instance of UITableViewCell, with default appearance
+    
+    let cell = UITableViewCell(style: .value1, reuseIdentifier: "UITableViewCell")
+    
+    // Set the text on the cell
+    
+    let item = itemStore.allItems[indexPath.row]
+        
+    cell.textLabel?.text = item.name
+    
+    return cell
+    
+    
+    }
+    
     
 }
