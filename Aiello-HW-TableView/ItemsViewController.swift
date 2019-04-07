@@ -26,8 +26,14 @@ class ItemsViewController: UITableViewController {
     cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     // Create an instance of UITableViewCell, with default appearance
     
-    let cell = UITableViewCell(style: .value1, reuseIdentifier: "UITableViewCell")
+   // let cell = UITableViewCell(style: .value1, reuseIdentifier: "UITableViewCell")
     
+        
+    // get a new or recycled cell
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "UITableViewCell",
+                    for: indexPath)
+        
     // Set the text on the cell
     
     let item = itemStore.allItems[indexPath.row]
